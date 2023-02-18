@@ -15,11 +15,11 @@ long int li;
 long long ll;
 float f;
 
-printf("size of a char: %lu.\n", sizeof(c));
-printf("size of an int: %lu.\n", sizeof(i));
-printf("sinze of a long int: %lu. \n", sizeof(li));
-printf("sinze of a long long: %lu. \n", sizeof(ll));
-printf("sinze of a float: %lu. \n", sizeof(f));
+printf("size of a char: %zu byte(s)\n", sizeof(c));
+printf("size of an int: %zu byte(s)\n", sizeof(i));
+printf("size of a long int: %zu byte(s)\n", sizeof(li));
+printf("size of a long long: %zu byte(s)\n", sizeof(ll));
+printf("size of a float: %zu byte(s)\n", sizeof(f));
 
 return (0);
 }
