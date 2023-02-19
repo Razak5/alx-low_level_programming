@@ -7,6 +7,5 @@
  */
 int main(void)
 {
-printf("great code from start\n");
-      return (0);
+return (0);
 }
