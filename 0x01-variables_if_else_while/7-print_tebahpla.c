@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 /**
- * main- prints lowercase letters followed by a new line
+ * main- prints alphabets in reverse order
  * Return: Always (Success)
  *
  */
 
 int main(void)
 {
-        char alpha;
+char alpha;
+for (alpha = 'z'; alpha >= 'a'; alpha--)
+{
+putchar(alpha);
+}
+putchar ('\n');
 
-        for (alpha = 'z'; alpha >= 'a'; alpha--)
-        {
-                putchar(alpha);
-        }
-        putchar ('\n');
-
-        return (0);
+return (0);
 }
