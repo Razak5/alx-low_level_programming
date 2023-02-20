@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main- prints lowercase letters followed by a new line
+ * main- prints all single digigt base 10 numbers followed  by a new line
  * Return: Always (Success)
  *
  */
