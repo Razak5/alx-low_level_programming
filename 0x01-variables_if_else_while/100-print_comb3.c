@@ -13,7 +13,7 @@ int numb;
 
 for (numa = '0'; numa < '9'; numa++)
 {
-for (numb= numa + 1; numb <= '9'; numb++)
+for (numb = numa + 1; numb <= '9'; numb++)
 {
 if (numb != numa)
 {
