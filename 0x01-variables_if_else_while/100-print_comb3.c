@@ -8,15 +8,24 @@
 
 int main(void)
 {
-int num;
-for (num = 0; num <= 89; num++)
+int numa;
+int numb;
+
+for (numa = '0'; numa < '9'; numa++)
 {
-putchar((num / 10) + '0');
-putchar((num % 10) + '0');
-if (num != 89)
+for (numb= numa + 1; numb <= '9'; numb++)
 {
+if (numb != numa)
+{
+putchar(numa);
+putchar(numb);
+if (numa == '8' && numb == '9')
+
+continue;
+
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
