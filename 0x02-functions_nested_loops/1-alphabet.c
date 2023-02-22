@@ -1,17 +1,15 @@
 #include "main.h"
+
 /**
- * main- prints lowercase letters followed by a new line
- * Return: Always (Success)
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  *
  */
-
 void print_alphabet(void)
 {
+
 char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
-{
-putchar(alpha);
+{_putchar(alpha);
 }
-putchar ('\n');
-return (0);
+_putchar('\n');
 }
