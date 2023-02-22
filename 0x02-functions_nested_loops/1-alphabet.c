@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main- prints lowercase letters followed by a new line
@@ -6,7 +5,7 @@
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 char alpha;
 for (alpha = 'a'; alpha <= 'z'; alpha++)
@@ -14,6 +13,5 @@ for (alpha = 'a'; alpha <= 'z'; alpha++)
 putchar(alpha);
 }
 putchar ('\n');
-
 return (0);
 }
