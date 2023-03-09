@@ -7,7 +7,7 @@
 void _puts_recursion(char *str)
 {
 	if (*str)
-	{	_putchar(*str)
+	{	_putchar(*str);
 		_puts_recursions(str + 1);
 	}
 	else
