@@ -1,14 +1,14 @@
 #include "main.h"
 /**
  * _puts_recursion -prints a string followed by a new line
- * @str: input
+ * @s: input
  * Return: Always 0 (Success)
  */
-void _puts_recursion(char *str)
+void _puts_recursion(char *s)
 {
-	if (*str)
-	{	_putchar(*str);
-		_puts_recursions(str + 1);
+	if (*s)
+	{	_putchar(*s);
+		_puts_recursions(s + 1);
 	}
 	else
 		_putchar('\n');
