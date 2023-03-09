@@ -15,5 +15,5 @@ int _strlen_recursion(char *s)
 		word += _strlen_recursion(s + 1);
 	}
 
-	return (longit);
+	return (word);
 }
