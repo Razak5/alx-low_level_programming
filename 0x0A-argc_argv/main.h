@@ -3,5 +3,5 @@
 		
 int _putchar(char c);
 int _atoi(char *s);
-int checkNo(char *str);
+int check_no(char *str);
 #endif
